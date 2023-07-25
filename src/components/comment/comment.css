@@ -1,0 +1,9 @@
+.comment {
+  background-color: var(--very-light-gray);
+  padding: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}

@@ -1,0 +1,18 @@
+@import url("./variables.css");
+body {
+  background-color: var(--light-gray);
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}

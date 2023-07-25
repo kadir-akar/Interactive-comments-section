@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  background-color: var(--light-gray);
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.button button {
+  background-color: var(--light-gray);
+  border: none;
+  color: var(--grayish-blue);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button span {
+  color: var(--moderate-blue);
+}
