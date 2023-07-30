@@ -1,18 +1,21 @@
 import Header from "./header/Header";
 import Body from "./body/Body";
-import Button from "../button/Button";
+import Reaction from "../reaction/Reaction";
 
 import "./Comment.css";
 
-const Comment = () => {
+interface Props {
+  data: any;
+}
+
+const Comment: React.FC<Props> = ({ data }) => {
+  console.log(data);
   return (
     <div className="comment">
+      <Reaction reaction={data.score} />
       <div>
-        <Button />
-      </div>
-      <div>
-        <Header />
-        <Body />
+        <Header img={data.user.image.png} />
+        <Body comment={data.content} />
       </div>
     </div>
   );
